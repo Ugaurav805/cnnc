@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "../../Sidebar/Sidebar";
-import "./Booking.css";
+import "./booking.css";
 
 const Booking = () => {
   const [activeTab, setActiveTab] = useState("Upcoming");
