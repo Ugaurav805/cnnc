@@ -1,0 +1,122 @@
+.Preferences-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+.Preferences-positioncontainer {
+  position: absolute;
+  top: 95px;
+  left: 328px;
+}
+
+.Preferences-logo-container {
+  margin-bottom: 20px;
+  width: 121px;
+  height: 32px;
+}
+.Preferences-cnnct-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  position: absolute;
+  top: 48px;
+  left: 48px;
+}
+
+.Preferences-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.Preferences-input {
+  width: 450px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.Preferences-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Preferences-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.Preferences-category-button {
+  display: flex;
+  align-items: center;
+  width: 240px;
+  height: 45px;
+  border: 1.02px solid #e0e2d9;
+  background-color: #f9f9f9;
+  padding-top: 10.2px;
+  padding-right: 16.68px;
+  padding-bottom: 9.18px;
+  padding-left: 17.35px;
+  border-width: 1.02px;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.Preferences-category-button:hover {
+  border-color: #1877f2;
+  background-color: #eef5ff;
+}
+
+.Preferences-category-button.selected {
+  background-color: #1877f2;
+  color: white;
+  border-color: #1877f2;
+}
+
+.Preferences-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+.Preferences-continue-button {
+  width: 486px;
+  height: 48px;
+  border-radius: 65px;
+  background-color: #1877f2;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Preferences-continue-button:hover {
+  background-color: #0056b3;
+}
+
+/* Image Section */
+.Preferences-signin-right {
+  position: absolute;
+  height: 100%;
+  left: 1139px;
+  right: 0px;
+  top: 0px;
+  display: flex;
+}

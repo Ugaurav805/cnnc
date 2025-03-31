@@ -1,0 +1,145 @@
+.signup-logo {
+  width: 121px;
+  height: 32px;
+}
+
+.signup-cnnct-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  position: absolute;
+  top: 48px;
+  left: 48px;
+}
+
+.signup-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.signup-container {
+  width: 392px;
+  margin-top: 45px;
+  margin-left: 344px;
+}
+
+.signup-h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.signup-link a {
+  color: #3b82f6;
+  font-size: 0.875rem;
+}
+
+.signup-form-group {
+  margin-bottom: 1rem;
+}
+
+.signup-form-group label {
+  display: block;  
+  font-size: 0.875rem;
+  color: #000000;
+}
+
+.signup-form-group input {
+  width: 376px;
+  height: 30px;
+  border-radius: 8.46px;
+  border-width: 0.7px;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  font-size: 0.875rem;
+  color: #000000;
+}
+
+.signup-form-group input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.checkboxflex {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.terms-link {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.terms-link:hover {
+  text-decoration: underline;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #c3c3c3;
+  color: #ffffff;
+  border: none;
+  border-radius: 38rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #9ca3af;
+}
+
+.signup-error {
+  color: #ef4444;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.signup-right {
+  position: absolute;
+  height: 100%;
+  left: 1131px;
+  right: 0px;
+  top: 0px;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .signup-container {
+    flex-direction: row;
+  }
+
+  .signup-container > div {
+    width: 50%;
+  }
+
+  .signup-signin-right {
+    display: block;
+  }
+
+  .signin-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

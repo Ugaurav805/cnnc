@@ -1,0 +1,102 @@
+.Calander-container {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.Calander-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Calander-activity, 
+.Calander-timezone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1a73e8;
+  cursor: pointer;
+}
+
+.Calander-arrow {
+  font-size: 1.2rem;
+}
+
+.rbc-calendar {
+  background: white;
+  border-radius: 8px;
+}
+
+.rbc-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.rbc-toolbar button {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: #1a73e8 !important;
+  color: white !important;
+}
+
+.rbc-event {
+  background-color: #1a73e8 !important;
+  border-radius: 4px;
+  padding: 5px;
+  color: white;
+}
+
+.rbc-toolbar-view {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rbc-toolbar-search {
+  display: flex;
+  align-items: center;
+}
+
+.rbc-toolbar-search input {
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.rbc-toolbar-timezone {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.rbc-time-view .rbc-time-header .rbc-time-header-cell,
+.rbc-time-view .rbc-time-content .rbc-time-content-cell {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Remove light blue color for the 31st date */
+.rbc-day-slot .rbc-day-slot-cell {
+  background-color: white !important; /* Default background */
+}
+
+.rbc-day-slot .rbc-day-slot-cell.rbc-today {
+  background-color: white !important; /* Ensure today's date is white */
+}
+
+.rbc-day-slot .rbc-day-slot-cell:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}
+
+/* Optional: Style for selected date */
+.rbc-day-slot .rbc-day-slot-cell.rbc-selected {
+  background-color: #e0e0e0 !important; /* Gray for selected date */
+}

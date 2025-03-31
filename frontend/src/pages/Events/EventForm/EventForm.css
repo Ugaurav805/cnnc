@@ -1,0 +1,151 @@
+.event-form-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.event-form-header {
+  font-family: Arial, sans-serif;
+  color: #000;
+  position: relative;
+  left: 300px;
+  top: 30px;
+}
+
+.event-form-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.event-form-header p {
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  line-height: 0.1;
+
+}
+.white-event-form {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 0px;
+  width: 50%;
+  height: 82%;
+  position: relative;
+  left: 20px;
+  bottom: -120px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Inter", sans-serif;
+}
+
+.event-form-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #1877F2;
+  margin-bottom: 10px;
+}
+
+.event-form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.event-divider {
+  border: 0;
+  height: 1px;
+  background: #dcdcdc;
+  margin-bottom: 20px;
+}
+
+.event-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+  align-items: center;
+  position: relative;
+  right: 95px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.event-form-grid label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3a3a3a;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.event-form-grid input,
+.event-form-grid select,
+.event-form-grid textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.event-form-grid textarea {
+  height: 80px;
+  resize: none;
+}
+
+.event-form-date-time {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.event-form-buttons {
+  display: flex;
+}
+
+.cancel-button,
+.save-button {
+  position: relative;
+  margin: 15px;
+  left: 400px;
+  font-size: 14px;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 120px;
+}
+
+.cancel-button {
+  background: #f5f5f5;
+  color: #F3F3F1;
+}
+
+.save-button {
+  background: #1877F2;
+  color: white;
+}
+
+.save-button:hover {
+  background: #044a94;
+}
+
+.required {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .white-event-form {
+    width: 80%;
+  }
+
+  .event-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .event-form-grid label {
+    text-align: left;
+  }
+
+  .event-form-date-time {
+    grid-template-columns: 1fr;
+  }
+}

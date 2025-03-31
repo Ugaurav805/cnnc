@@ -1,0 +1,196 @@
+/* General styles */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.navbar {
+  position: absolute;
+  width: 90%;
+  height: 55px;
+  left: 5%;
+  top: 25px;
+  background: #f0f0f0;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 35px;
+}
+
+.primary-button {
+  background-color: #1877F2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 40px;
+  width: 130px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 150px 5% 50px 5%; /* Add bottom padding */
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  margin-top: 15px;
+}
+
+.hero-image img {
+  max-width: 90%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+/* Features Section */
+.features-section {
+  text-align: center;
+  padding: 50px 5%;
+}
+
+.features-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.features-description {
+  font-size: 18px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Calendar Section */
+.calendar-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5%;
+  gap: 20px;
+}
+
+.calendar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.calendar-text {
+  max-width: 50%;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.calendar-images {
+  display: flex;
+  gap: 10px;
+}
+
+.calendar-img-container,
+.schedule-img-container {
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.calendar-img,
+.schedule-img {
+  width: 100%;
+  display: block;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  text-align: center;
+  padding: 50px 5%;
+}
+
+.testimonials-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.testimonials-img {
+  max-width: 90%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+/* Integrations Section */
+.integrations-section {
+  text-align: center;
+  padding: 50px 5%;
+}
+
+.integrations-img {
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.footer-frame {
+  margin-top: 50px;
+}
+
+.footer-img {
+  max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .calendar-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .calendar-text {
+    max-width: 100%;
+  }
+}
