@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Availability.css";
+import "./availability.css";
 import CalendarView from "../../Events/Availability/Calander.jsx";
 
 const Availability = () => {
