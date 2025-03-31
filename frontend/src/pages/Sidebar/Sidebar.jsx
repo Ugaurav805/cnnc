@@ -5,10 +5,10 @@ import CNNCTlogo from "../../assets/CNNCTlogo.svg";
 import profileIcon from "../../assets/icons/banner.png";
 
 // Import icons
-import eventIcon from "../../assets/icons/events.svg";
-import bookingIcon from "../../assets/icons/booking.svg";
-import availabilityIcon from "../../assets/icons/availability.svg";
-import settingsIcon from "../../assets/icons/settings.svg";
+import eventIcon from "../../assets/icons/Events.svg";
+import bookingIcon from "../../assets/icons/Booking.svg";
+import availabilityIcon from "../../assets/icons/Availability.svg";
+import settingsIcon from "../../assets/icons/Settings.svg";
 
 const Sidebar = () => {
   const [username, setUsername] = useState("User");
