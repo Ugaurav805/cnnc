@@ -26,9 +26,7 @@ const signupValidation = (req, res, next) => {
             'string.empty': 'Confirm Password is required',
             'any.only': 'Passwords must match'
         }),
-        terms: Joi.boolean().valid(true).required().messages({
-            'boolean.base': 'You must accept the terms and conditions'
-        })
+        
     });
 
     const { error } = schema.validate(req.body);
